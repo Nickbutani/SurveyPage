@@ -1,0 +1,119 @@
+<head>
+    
+      <link rel="stylesheet" type="text/css" href="index.css">
+    
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class ="survey-name">
+                <h1 id= "title" class="survey-name">
+                    Welcome To Academy Survey.
+                </h1>
+                <p id="description">
+                    Thank you for helping us know your aducation and goals, we appreciate you time.
+                </p>
+            </div>
+        </header>
+        <form id="survey-form">
+            
+            <div class="form-content">
+                <label id="name-label" for="name">Name</label>
+                <input type="name" name="name" id="name" class="form-control" placeholder="Enter you full name" required/>
+            <div class ="form-content">
+                <label id="email-label" for="email" >Email</label>
+                <input format="email" type="email" name="eamil" id="email" class="form-control" placeholder="Enter you email" required/>
+            </div>
+            <div class="form-content">
+                <label id="number-label" for="Number">Age <span class="clue"> (Optional)</span></label>
+                <input type="number" name="age" id="number" min="15" max="86" class="form-control" placeholder="Your age" required/>
+            </div>
+            
+            <div class="form-content" >
+                <p class="work-p">Do you work while in college?</p>
+                <label>
+                    <input name="user-option" type="radio" value="Yes" class="radio-input">Yes
+                </label>
+                <label>
+                    <input name="user-option" type="radio" value="No" class="radio-input">No
+                </label>
+                <label>
+                    <input name="user-option" type="radio" value="Prefer not to say" class="radio-input">Prefer not to say
+                </label>
+            </div>
+
+            <div class="form-content" >
+                <p>If yes, what is your current position?<span class="clue">(If no, leave it blank)</span></p>
+                <select id="dropdown" name="role" class="form-control">
+                    <option value="Current role" disabled selected>Current role</option>
+                    <option value="Full-time" >Full-time</option>
+                    <option value="Part-time" >Part-time</option>
+                    <option value="Temporary" >Temporary</option>
+                    <option value="Internship">Internship</option>
+                    <option value="Self-employed" >Self-employed</option>
+
+                </select>
+            </div>
+        
+            <div class="form-content" >
+                <p class="major-p">What is your major in college?</p>
+                <select id="dropdown" name="major" class="form-control">
+                    <option value="Select your major" disabled selected>Select your major</option>
+                    <option value="Agriculture, Agriculture Operations, and Related Sciences">Agriculture, Agriculture Operations, and Related Sciences</option>
+                    <option value="Architecture and Related Services ">Architecture and Related Services</option>
+                    <option value ="Area, Ethnic, Cultural, Gender, and Group Studies">Area, Ethnic, Cultural, Gender, and Group Studies</option>
+                    <option value="Aviation">Aviation</option>
+                    <option value="Biological and Biomedical Sciences">Biological and Biomedical Sciences</option>
+                    <option value="Business, Management, Marketing, and Related Support Services">Business, Management, Marketing, and Related Support Services</option>
+                    <option value="Communication, Journalism, and Related Programs">Communication, Journalism, and Related Programs</option>
+                    <option value="Communications Technologies and technicians and Support Services">Communications Technologies and technicians and Support Services</option>
+                    <option value="Computer and Information Sciences and Support Services">Computer and Information Sciences and Support Services</option>
+                    <option value="Construction Trades">Construction Trades</option>
+                    <option value="Education">Education</option>
+                    <option value="Engineering Technologies and Engineering-Related Fields">Engineering Technologies and Engineering-Related Fields</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="English Language and Literature/letters">English Language and Literature/letters</option>
+                    <option value="Family and Consumer Sciences/human Sciences">Family and Consumer Sciences/human Sciences</option>
+                    <option value="Foreign Languages, Literatures, and Linguistics">Foreign Languages, Literatures, and Linguistics</option>
+                    <option value="Health Professions and Related Programs">Health Professions and Related Programs</option>
+                    <option value="History">History</option>
+                    <option value="Visual and Performing Arts">Visual and Performing Arts</option>
+                </select>
+            </div>
+            <div class="form-content" >
+                <p class="sports-p">Do you play sports that you play in college.<span class="sports">(Select all that apply)</span></p>
+                <label>
+                    <input name="user-option" type="checkbox" class="checkbox-check" value="Tennis">Tennis
+                </label>
+                <label>
+                    <input name="user-option" type="checkbox" class="checkbox-check" value="Tennis">Baseball
+                </label>
+                <label>
+                    <input name="user-option" type="checkbox" class="checkbox-check" value="Tennis">Basketball
+                </label>
+                <label>
+                    <input name="user-option" type="checkbox" class="checkbox-check" value="Tennis">Football
+                </label>
+                <label>
+                    <input name="user-option" type="checkbox" class="checkbox-check" value="Tennis">Soccer
+                </label>
+                <label>
+                    <input name="user-option" type="checkbox" class="checkbox-check" value="Tennis">Softball
+                </label>
+                <label>
+                    <input name="user-option" type="checkbox" class="checkbox-check" value="Tennis">Volleyball
+                </label>
+            </div>
+            <div id="comment" class="form-content">
+                <p class="goal">Tell us something more about your goal.<span class="clue">(Optional)</span></p>
+                <textarea type="comment" name="comment" class="textarea" placeholder="Enter your text"></textarea>
+            </div>
+            <div class="form-content">
+                <button id="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html><head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
